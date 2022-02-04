@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    width: 100%;
+}
+
+
+.menu{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    background-color: #f1f1f1;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 32px;
+    display: block;
+    padding: 20px 50px;
+
+}
+
+.menu a:hover{
+    box-shadow: inset 0px -3px 0px 0px black;
+    transition: 0.5s;
+    cursor: pointer;
+    display: block;
+    color: #555;
+
+}
+
+
+.context{
+    font-size: 25px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    text-align: center;
+}
+.h1-context{
+    font-family: 'Caveat Brush', cursive;
+    font-size: 80px;
+}
+
+.h2-context{
+    padding-top: 20px;
+    font-family: 'Caveat Brush', cursive;
+}
+.photo-box{
+    width: 340px;
+    height: 400px;
+    background-image: url(images/photo1.jpg);
+    background-size: cover;
+}
+.photo-box:nth-child(2){
+    background-image: url(images/photo2.jpg);
+}
+
+.context-1{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    justify-content: space-around;
+}
+.context-1-text{
+    width: 40%;
+    height: 400px;
+}
+
+.zespol{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #fff;
+    padding: 50px;
+}
+.zespol:nth-child(2){
+    background-color: #d9d9d9;
+}
+
+.zespol:nth-child(4){
+    background-color: #d9d9d9;
+}
+
+.photo-box-zespoly{
+    background-image: url(images/p1.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 450px;
+    margin: 0 100px;
+    box-shadow: 0px 0px 10px 7px black;
+    border-radius: 5px;
+    background-position: center;
+}
+
+.photo-box-zespoly:nth-child(2){
+    background-image: url(images/p2.jpeg);
+}
+
+.Box-photo-box2{
+    width: 30%;
+}
+
+.zespol-text{
+    text-align: center;
+    width: 70%;
+    padding: 0 50px;
+}
+
+.footer{
+    background-color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    padding-left: 70px;
+}
